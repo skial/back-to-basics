@@ -1,0 +1,6 @@
+[package]
+name = "reassign"
+version = "0.1.0"
+authors = ["Skial Bainn <skial.bainn@gmail.com>"]
+
+[dependencies]
