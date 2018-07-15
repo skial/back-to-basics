@@ -1,7 +1,7 @@
 # Types (data types)
 
 - Every variable has a type. 
-- Rustlang can infer types, except `const` variables.
+- Rustlang can infer types, _except_ `const` variables.
 
 ## Scalar types
 
@@ -20,7 +20,7 @@
 - Booleans
     - _`bool`_
 - Characters
-    - Single **unicode** character.
+    - Single **unicode** code point.
     - Use single quotes `'`
     - _`char`_
 
