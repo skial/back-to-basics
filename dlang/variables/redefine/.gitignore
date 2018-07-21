@@ -1,0 +1,14 @@
+.dub
+docs.json
+__dummy.html
+docs/
+redefine.so
+redefine.dylib
+redefine.dll
+redefine.a
+redefine.lib
+redefine-test-*
+*.exe
+*.o
+*.obj
+*.lst
