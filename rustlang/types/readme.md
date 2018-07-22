@@ -11,7 +11,7 @@
 | -         | -         | -         |
 | `i8`      | 8 bit     |
 | `i16`     | 16 bit    |
-| `i32`     | 32 bit    | default   |
+| `i32`     | 32 bit    | default
 | `i64`     | 64 bit    |
 | `isize`   | arch      |
 | -         | -         | -
@@ -22,7 +22,7 @@
 | `usize`   | arch      |
 | -         | -         | -
 | `f32`     | 32 bit    |
-| `f64`     | 64 bit    | default   |
+| `f64`     | 64 bit    | default
 | -         | -         | -
 | `bool`    | [8 bit][1]|
 | -         | -         | -

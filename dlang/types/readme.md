@@ -2,6 +2,7 @@
 
 - Every variable has a type.
 - DLang can infer types that use the `auto` keyword.
+- See [spec/Type.html](https://dlang.org/spec/type.html).
 
 ## Scalar types
 
@@ -10,20 +11,20 @@
 
 | Type      | Size      | Notes     |
 | -         | -         | -         |
-| `auto`    |           | infer type|
+| `auto`    |           | infer type
 | `bool`    | 8 bit     |
 | -         | -         |
 | `byte`    | 8 bit     |
 | `ubyte`   | 8 bit     |
-| `char`    | 8 bit     | utf-8     |
+| `char`    | 8 bit     | utf-8
 | -         | -         |
 | `short`   | 16 bit    |
 | `ushort`  | 16 bit    |
-| `wchar`   | 16 bit    | utf-16    |
+| `wchar`   | 16 bit    | utf-1
 | -         | -         |
 | `int`     | 32 bit    |
 | `uint`    | 32 bit    |
-| `dchar`   | 32 bit    | utf-32    |
+| `dchar`   | 32 bit    | utf-3
 | -         | -         |
 | `long`    | 64 bit    |
 | `ulong`   | 64 bit    |
