@@ -2,9 +2,11 @@
 
 ### Languages
 
-- [RustLang](/rustlang)
-- ~~OCaml~~
 - [Haxe](/haxe)
+- [RustLang](/rustlang)
+- [DLang](/dlang)
+- ~~OCaml~~
+
 
 ### IDE
 

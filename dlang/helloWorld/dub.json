@@ -1,0 +1,9 @@
+{
+	"name": "helloworld",
+	"authors": [
+		"skial"
+	],
+	"description": "print \"hello world\"",
+	"copyright": "Copyright © 2018, skial",
+	"license": "MIT"
+}

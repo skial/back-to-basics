@@ -1,2 +1,18 @@
 # rustlang
 rustlang/**/target
+
+# dlang
+dlang/**/.dub
+dlang/**/docs.json
+dlang/**/__dummy.html
+dlang/**/docs/
+dlang/**/redefine.so
+dlang/**/redefine.dylib
+dlang/**/redefine.dll
+dlang/**/redefine.a
+dlang/**/redefine.lib
+dlang/**/redefine-test-*
+dlang/**/*.exe
+dlang/**/*.o
+dlang/**/*.obj
+dlang/**/*.lst
