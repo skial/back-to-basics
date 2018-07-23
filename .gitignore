@@ -16,3 +16,8 @@ dlang/**/*.exe
 dlang/**/*.o
 dlang/**/*.obj
 dlang/**/*.lst
+
+# ocaml
+ocaml/**/_build
+ocaml/**/dune-project
+ocaml/**/.merlin

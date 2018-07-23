@@ -5,7 +5,7 @@
 - [Haxe](/haxe)
 - [RustLang](/rustlang)
 - [DLang](/dlang)
-- ~~OCaml~~
+- [OCaml](/ocaml)
 
 
 ### IDE
