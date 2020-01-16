@@ -14,3 +14,6 @@
 
 ### Library Directory
 - [`crates.io`](https://crates.io/)
+
+### IDE tools
+- [`tools`](https://www.rust-lang.org/tools)
