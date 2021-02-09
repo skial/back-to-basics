@@ -4,7 +4,7 @@
 
 - Variables are mutable.
     - **_mutable_** - _liable to change_.
-- Standard _(fundamental)_ types have [default values](https://dlang.org/spec/type.html).
+- Standard _(fundamental)_ types have [default values](https://dlang.org/spec/type.html#basic-data-types).
 
 ## Creation
 - `<type> <name>;`

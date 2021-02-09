@@ -6,6 +6,8 @@
 ### Installation
 - [Offical Installer](https://ocaml.org/docs/install.html)
     - [OCaml for Windows](https://fdopen.github.io/opam-repository-mingw/) is the simpler install option.
+    - [Ocaml for Windows Options](https://ocaml.org/docs/install.html#Windows)
+    - [esy.sh](https://esy.sh/) - Easy package management for native Reason, OCaml and more.
 
 ### IDE
 #### VSCode
