@@ -1,0 +1,5 @@
+name "void"
+description "Calling a voidless function"
+authors "_"
+copyright "Copyright © 2021, _"
+license "MIT"
