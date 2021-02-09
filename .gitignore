@@ -21,3 +21,11 @@ dlang/**/*.lst
 ocaml/**/_build
 ocaml/**/dune-project
 ocaml/**/.merlin
+ocaml/**/.merlin
+ocaml/**/node_modules/
+ocaml/**/_build
+ocaml/**/_esy
+ocaml/**/_release
+ocaml/**/*.byte
+ocaml/**/*.native
+ocaml/**/*.install
