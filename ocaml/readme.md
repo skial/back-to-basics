@@ -12,6 +12,7 @@
 ### IDE
 #### VSCode
 
+- Paired with `esy.sh`, the outdated [`vscode-reasonml`](https://github.com/reasonml-editor/vscode-reasonml) plugin appears to works with a project local version of merlin.
 - Using `ocaml-env.exe` to setup the environment is recommend.
 - The modifies the `cmd` terminal to have OCaml paths injected for you.
     ```
