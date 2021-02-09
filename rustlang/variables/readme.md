@@ -8,7 +8,7 @@
 
 ## Creation
 - `let <name>;`
-- To create a variable, use the `let` keyword followed an identifier.
+- To create a variable, use the `let` keyword followed by an identifier.
 
 ## Assignment
 - `let <name> = <value>;`

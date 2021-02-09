@@ -6,10 +6,13 @@
 ### Installation
 - [Offical Installer](https://ocaml.org/docs/install.html)
     - [OCaml for Windows](https://fdopen.github.io/opam-repository-mingw/) is the simpler install option.
+    - [Ocaml for Windows Options](https://ocaml.org/docs/install.html#Windows)
+    - [esy.sh](https://esy.sh/) - Easy package management for native Reason, OCaml and more.
 
 ### IDE
 #### VSCode
 
+- Paired with `esy.sh`, the outdated [`vscode-reasonml`](https://github.com/reasonml-editor/vscode-reasonml) plugin appears to works with a project local version of merlin.
 - Using `ocaml-env.exe` to setup the environment is recommend.
 - The modifies the `cmd` terminal to have OCaml paths injected for you.
     ```
