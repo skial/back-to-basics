@@ -1,0 +1,26 @@
+{
+  "name": "reassign",
+  "version": "0.0.0",
+  "description": "ocaml variable reassignment",
+  "author": "",
+  "license": "MIT",
+  "esy": {
+    "build": [
+      "dune build -p #{self.name}"
+    ],
+    "release": {
+      "bin":"main",
+      "includePackages": [
+        "root"
+      ]
+    }
+  },
+  "dependencies": {
+    "@opam/dune": "*",
+    "ocaml": "~4.8.0"
+  },
+  "devDependencies": {
+    "@opam/merlin": "^3.0.3",
+    "ocaml": "~4.8.0"
+  }
+}
