@@ -24,6 +24,9 @@
   + Imports the public `<type name>` into scope.
 - `import <package>.<_ name>.<field name>;`
   + Imports a `static` field into scope, where `_ name` is a module or type identifier.
+
+### Aliasing
+
 - `import <package>.<* name> as <alias>;`
   + Imports `* name` as `alias` into scope, where `* name` is a module, type or field identifier.
 

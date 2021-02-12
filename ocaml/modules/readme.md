@@ -22,6 +22,10 @@
 
 - `open <module name>`.
 
+### Aliasing
+
+- `module <new name> := <old name>`.
+
 ## Resolution
 
 -

@@ -19,8 +19,11 @@
 
 - Importing appears to be acceptable in any scope.
 - `import <path>.<module name>;`.
-- `import <alias> = <path>.<module name>;`
 - `import <path>.<module name>:<field name>;`
+
+### Aliasing
+
+- `import <alias> = <path>.<module name>;`
 - `import <alias> = <path>.<module name>:<field name>;`
 
 ## Resolution
