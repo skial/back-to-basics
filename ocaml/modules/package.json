@@ -1,0 +1,20 @@
+{
+  "name": "modules",
+  "version": "0.0.0",
+  "description": "How to define modules, import and alias them.",
+  "author": "",
+  "license": "MIT",
+  "esy":{
+   "build": [
+     "dune build -p #{self.name}"
+   ]
+  },
+  "dependencies": {
+    "@opam/dune": "*",
+    "ocaml": "4.11.0"
+  },
+  "devDependencies": {
+    "@opam/merlin": "*",
+    "ocaml": "4.11.0"
+  }
+}

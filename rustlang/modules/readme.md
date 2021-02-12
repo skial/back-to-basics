@@ -39,7 +39,7 @@
 
 ### Aliasing
 
-- `use crate::<absolute path>::<_ name> as `<alias>;`.
+- `use crate::<absolute path>::<_ name> as <alias>;`.
 
 ## Resolution
 

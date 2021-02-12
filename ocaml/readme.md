@@ -12,17 +12,32 @@
 ### IDE
 #### VSCode
 
-- Paired with `esy.sh`, the outdated [`vscode-reasonml`](https://github.com/reasonml-editor/vscode-reasonml) plugin appears to works with a project local version of merlin.
-- Using `ocaml-env.exe` to setup the environment is recommend.
-- The modifies the `cmd` terminal to have OCaml paths injected for you.
-    ```
-    {
-        "terminal.integrated.shell.windows": "C:\\OCaml64\\usr\\local\\bin\\ocaml-env.exe",
-        "terminal.integrated.shellArgs.windows": ["exec","cmd.exe"],
-    }
-    ```
+- `[windows]` Paired with `esy.sh`, the outdated [`vscode-reasonml`](https://github.com/reasonml-editor/vscode-reasonml) plugin appears to works with a project local version of merlin.
 
 ### Package Manager
+- `[windows]` Use `esy.sh` to handle dependencies and building.
+  - Add an empty `<project name>.opam` to the root of your project.
+  - Run `npm init` to setup the project.
+  - Add the following `json` snippet to the `package.json` file.
+  - ```json
+    {
+        "esy":{
+            "build": [
+                "dune build -p #{self.name}"
+            ]
+        },
+        "dependencies": {
+            "@opam/dune": "*",
+            "ocaml": "4.11.0"
+        },
+        "devDependencies": {
+            "@opam/merlin": "*",
+            "ocaml": "4.11.0"
+        }
+    }
+    ```
+    - Run `esy` which will install and build all dependencies.
+    - Depending on building a binary or library, you'll need to add a `dune` file to your source directories.
 - `opam`
 - [`dune`](https://github.com/ocaml/dune)
     - building - `dune build <file_name>.exe`
@@ -32,3 +47,4 @@
 
 ### Library Directory
 - [`opam.ocaml.org`](https://opam.ocaml.org/)
+- [Dune's Documentation](https://dune.readthedocs.io/en/stable/)

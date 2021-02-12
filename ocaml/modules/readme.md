@@ -2,8 +2,9 @@
 
 ## Naming
 
-- Inherited from the filename and directory.
+- Inherited from the filename.
   + `amodule.ml` becomes `Amodule`. Lower case file names, upper case module names.
+  + If files are located in sub directories, use the toplevel stanza in a `dune` file, `(include_subdirs unqualified)`, which will tell Dune to recursively crawl sub directories.
 
 
 ## Type Limit
@@ -13,9 +14,7 @@
 ## Sub Modules
 
 - ```ocaml
-  module <module name> = struct
-    (* body *)
-  end
+  module <module name> = <type>
   ```
 
 ## Importing
@@ -24,11 +23,12 @@
 
 ### Aliasing
 
-- `module <new name> := <old name>`.
+- Same as declaring sub module.
+- `module <new name> = <old name>`.
 
 ## Resolution
 
--
+- _?_
 
 ## Links
 

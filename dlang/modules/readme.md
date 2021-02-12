@@ -24,7 +24,9 @@
 ### Aliasing
 
 - `import <alias> = <path>.<module name>;`
-- `import <alias> = <path>.<module name>:<field name>;`
+  + Alias a module.
+- `import <path>.<module name>:<alias> = <field name>;`
+  + Alias a field.
 
 ## Resolution
 
