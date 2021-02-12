@@ -1,0 +1,5 @@
+(executable
+    (name main)
+    (public_name modules)
+)
+(include_subdirs unqualified)

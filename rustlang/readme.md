@@ -17,3 +17,6 @@
 
 ### IDE tools
 - [`tools`](https://www.rust-lang.org/tools)
+
+### Resources
+- [cheat.rs](https://cheats.rs/)

@@ -25,3 +25,4 @@
 ### Resources
 - [D Language Reference](https://dlang.org/spec/spec.html)
 - [Pure-D Index](https://github.com/Pure-D/code-d/blob/master/docs/index.md)
+- [Idioms for the D Programming Language](https://p0nce.github.io/d-idioms/)
