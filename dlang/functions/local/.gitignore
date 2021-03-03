@@ -1,0 +1,15 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/local
+local.so
+local.dylib
+local.dll
+local.a
+local.lib
+local-test-*
+*.exe
+*.o
+*.obj
+*.lst
