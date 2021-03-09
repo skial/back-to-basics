@@ -1,5 +1,3 @@
-open Int
-
 let rec counting_down v =
     Printf.printf "%i\n" v;
     match v with
