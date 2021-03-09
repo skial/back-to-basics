@@ -38,6 +38,8 @@
     ```
     - Run `esy` which will install and build all dependencies.
     - Depending on building a binary or library, you'll need to add a `dune` file to your source directories.
+    - `esy b` will attempt to build the OCaml project.
+    - `esy x <project name>` will run the executable previously built.
 - `opam`
 - [`dune`](https://github.com/ocaml/dune)
     - building - `dune build <file_name>.exe`

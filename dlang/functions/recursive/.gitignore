@@ -1,0 +1,15 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/recursive
+recursive.so
+recursive.dylib
+recursive.dll
+recursive.a
+recursive.lib
+recursive-test-*
+*.exe
+*.o
+*.obj
+*.lst
