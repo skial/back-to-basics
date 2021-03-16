@@ -9,7 +9,8 @@
 - `let <name> = <value>`
 
 ## Re-assignment
-- `<name> = `<new value>` is not allowed in OCaml, redefine the variable instead.
+- Only allowed if the variable is mutable at creation, with `let <name> = ref <value>` and all re-assignments are `<name> := <value>`.
+- To read a mutable variable, use `!<name>`.
 
 ## Re-define
 - ```ocaml
