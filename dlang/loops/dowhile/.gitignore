@@ -1,0 +1,15 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/dowhile
+dowhile.so
+dowhile.dylib
+dowhile.dll
+dowhile.a
+dowhile.lib
+dowhile-test-*
+*.exe
+*.o
+*.obj
+*.lst
