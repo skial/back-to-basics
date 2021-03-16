@@ -1,0 +1,5 @@
+name "for"
+description "Example of basic for loops in D."
+authors "_"
+copyright "Copyright © 2021, _"
+license "MIT"
