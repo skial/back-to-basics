@@ -1,0 +1,5 @@
+name "while"
+description "Example of while loop in D."
+authors "_"
+copyright "Copyright © 2021, _"
+license "MIT"
