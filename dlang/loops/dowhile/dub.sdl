@@ -1,0 +1,5 @@
+name "dowhile"
+description "An example of do-while loop in D."
+authors "_"
+copyright "Copyright © 2021, _"
+license "MIT"
