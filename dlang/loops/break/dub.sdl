@@ -1,0 +1,5 @@
+name "break"
+description "An example of a loop exiting."
+authors "_"
+copyright "Copyright © 2021, _"
+license "MIT"

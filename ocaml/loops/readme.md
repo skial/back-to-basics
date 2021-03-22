@@ -19,3 +19,7 @@ done
 ## Do-while
 
 Doesn't exist.
+
+## Break
+
+No real concept of exiting a loop early. Throw and catch an exception?
