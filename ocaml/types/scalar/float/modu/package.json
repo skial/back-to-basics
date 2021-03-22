@@ -8,6 +8,7 @@
     ]
   },
   "dependencies": {
+    "@opam/stdio": "*",
     "@opam/base": "*",
     "@opam/dune": "*",
     "ocaml": "4.11.0"

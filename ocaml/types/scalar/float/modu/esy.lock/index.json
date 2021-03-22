@@ -1,5 +1,5 @@
 {
-  "checksum": "d3e11e1f0d98ab8dae6d38583ba0035c",
+  "checksum": "1369951a1344027acec159e6012a41c2",
   "root": "modu@link-dev:./package.json",
   "node": {
     "ocaml@4.11.0@d41d8cd9": {
@@ -27,8 +27,8 @@
       },
       "overrides": [],
       "dependencies": [
-        "ocaml@4.11.0@d41d8cd9", "@opam/dune@opam:2.8.4@ee414d6c",
-        "@opam/base@opam:v0.14.1@d14008e2"
+        "ocaml@4.11.0@d41d8cd9", "@opam/stdio@opam:v0.14.0@a624e254",
+        "@opam/dune@opam:2.8.4@ee414d6c", "@opam/base@opam:v0.14.1@d14008e2"
       ],
       "devDependencies": [
         "ocaml@4.11.0@d41d8cd9", "@opam/merlin@opam:4.1-411@2ac33a62"
@@ -60,6 +60,33 @@
       "devDependencies": [
         "ocaml@4.11.0@d41d8cd9", "@opam/easy-format@opam:1.3.2@0484b3c4",
         "@opam/dune@opam:2.8.4@ee414d6c", "@opam/biniou@opam:1.2.1@d7570399"
+      ]
+    },
+    "@opam/stdio@opam:v0.14.0@a624e254": {
+      "id": "@opam/stdio@opam:v0.14.0@a624e254",
+      "name": "@opam/stdio",
+      "version": "opam:v0.14.0",
+      "source": {
+        "type": "install",
+        "source": [
+          "archive:https://opam.ocaml.org/cache/md5/4c/4cbdf15f0be88c3258aaeff9e04e00e9#md5:4cbdf15f0be88c3258aaeff9e04e00e9",
+          "archive:https://ocaml.janestreet.com/ocaml-core/v0.14/files/stdio-v0.14.0.tar.gz#md5:4cbdf15f0be88c3258aaeff9e04e00e9"
+        ],
+        "opam": {
+          "name": "stdio",
+          "version": "v0.14.0",
+          "path": "esy.lock/opam/stdio.v0.14.0"
+        }
+      },
+      "overrides": [],
+      "dependencies": [
+        "ocaml@4.11.0@d41d8cd9", "@opam/dune@opam:2.8.4@ee414d6c",
+        "@opam/base@opam:v0.14.1@d14008e2",
+        "@esy-ocaml/substs@0.0.1@d41d8cd9"
+      ],
+      "devDependencies": [
+        "ocaml@4.11.0@d41d8cd9", "@opam/dune@opam:2.8.4@ee414d6c",
+        "@opam/base@opam:v0.14.1@d14008e2"
       ]
     },
     "@opam/sexplib0@opam:v0.14.0@ddeb6438": {
