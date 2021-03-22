@@ -1,0 +1,15 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/break
+break.so
+break.dylib
+break.dll
+break.a
+break.lib
+break-test-*
+*.exe
+*.o
+*.obj
+*.lst
