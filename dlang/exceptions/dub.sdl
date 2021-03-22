@@ -1,0 +1,5 @@
+name "exceptions"
+description "An example of raising & catching exceptions."
+authors "_"
+copyright "Copyright © 2021, _"
+license "MIT"
