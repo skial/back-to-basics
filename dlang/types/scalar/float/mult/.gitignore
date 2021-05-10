@@ -1,0 +1,15 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/mult
+mult.so
+mult.dylib
+mult.dll
+mult.a
+mult.lib
+mult-test-*
+*.exe
+*.o
+*.obj
+*.lst
