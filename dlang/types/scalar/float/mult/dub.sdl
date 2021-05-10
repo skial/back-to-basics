@@ -1,0 +1,5 @@
+name "mult"
+description "A minimal D application."
+authors "_"
+copyright "Copyright © 2021, _"
+license "MIT"

@@ -1,0 +1,15 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/modu
+modu.so
+modu.dylib
+modu.dll
+modu.a
+modu.lib
+modu-test-*
+*.exe
+*.o
+*.obj
+*.lst

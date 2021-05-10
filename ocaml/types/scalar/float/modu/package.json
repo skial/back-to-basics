@@ -1,0 +1,22 @@
+{
+  "name": "modu",
+  "version": "0.0.0",
+  "description": "",
+  "esy":{
+    "build": [
+        "dune build -p #{self.name}"
+    ]
+  },
+  "dependencies": {
+    "@opam/stdio": "*",
+    "@opam/base": "*",
+    "@opam/dune": "*",
+    "ocaml": "4.11.0"
+  },
+  "devDependencies": {
+    "@opam/merlin": "*",
+    "ocaml": "4.11.0"
+  },
+  "author": "_",
+  "license": "MIT"
+}
